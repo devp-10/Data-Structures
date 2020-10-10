@@ -1,12 +1,3 @@
-#Lab #6
-#Due Date: 03/22/2020, 11:59PM 
-########################################
-#                                      
-# Name: Dev Patel
-# Collaboration Statement: I worked on this assignment alone using course materials.
-#
-########################################
-
 class Node:
 	def __init__(self, value):
 		self.value = value
