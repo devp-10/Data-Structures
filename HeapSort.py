@@ -1,12 +1,3 @@
-#LAB 9
-#Due Date: 04/11/2020, 11:59PM EST
-########################################
-#                                      
-# Name: Dev Patel
-# Collaboration Statement: I worked on this lab alone using course materials.      
-#
-########################################
-
 class MaxPriorityQueue:
 	
 	def __init__(self):
@@ -109,47 +100,3 @@ def heapSort(numList):
 		return final
 	else:
 		return None
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
