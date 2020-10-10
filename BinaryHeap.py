@@ -1,12 +1,3 @@
-#Lab #7
-#Due Date: 04/24/2020, 11:59PM
-########################################
-#                                      
-# Name:
-# Collaboration Statement:             
-#  
-########################################
-
 class MaxPriorityQueue:
 	'''
 		>>> h = MaxPriorityQueue()
@@ -150,16 +141,3 @@ class MaxPriorityQueue:
 					self.heap[b], self.heap[a] = self.heap[a], self.heap[b]
 					current=current*2
 		return deleted
-
-
-
-
-
-
-
-
-
-
-
-
-
