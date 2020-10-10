@@ -100,9 +100,3 @@ class SortedLinkedList:
 			else:
 				current = current.next
 				return
-
-
-
-
-
-
