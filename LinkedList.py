@@ -1,12 +1,3 @@
-#Lab #4
-#Due Date: 03/06/2020, 11:59PM 
-########################################
-#                                      
-# Name: Dev Patel
-# Collaboration Statement: I worked on this assignment alone using course materials.         
-#
-########################################
-
 class Node:
 	def __init__(self, value):
 		self.value = value  
@@ -39,12 +30,12 @@ class SortedLinkedList:
 		List:-7.5 1 1 1 3 4 4 5 9.78
 	'''
 
-	def __init__(self):   # You are not allowed to modify the constructor
+	def __init__(self):   
 		self.head=None
 		self.tail=None
 		self.count=0
 
-	def __str__(self):   # You are not allowed to modify this method
+	def __str__(self):  
 		temp=self.head
 		out=[]
 		while temp:
@@ -97,8 +88,7 @@ class SortedLinkedList:
 		self.count = self.count - 1
 		return tempVal
 
-	# -- If you are attempting the extra credit, uncomment the method definition below
-
+	
 	def replicate(self):
 		if self.count < 2:
 			return
